@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* font-family: 'Kumbh Sans',sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 30px;
+    min-height: 100vh;
+    background: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position-x: -500px,540px;
+    background-position-y: -1000px,500px;
+    background-size: 100%,80%;
+}
+.card{
+    margin: 0 auto;
+    width: 390px;
+    height: 420px;
+    min-width: 390px;
+    min-height: 420px;
+    background-color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.top{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100% 150px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.top img{
+    margin: 0 auto;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+.bottom{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.major-info{
+    padding: 20px;
+    text-align: center;
+}
+.major-info h1 {
+    display: inline-block;
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 20px;
+}
+.major-info span{
+    margin-left: 10px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.major-info p{
+    padding-top: 10px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 15px;
+}
+.minor-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-top: 40px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+.credit-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.credit-subtitle{
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width:1080px)and (min-width:780px){
+    body{
+        background-position-x: -500px, 340px;
+        background-position-y: -600px, 500px;
+        background-size: 100%, 100%;
+    }
+}
+@media (max-width:780px)
+{
+    body {
+        background-position-x: -300px, 300px;
+        background-position-y: -300px, 500px;
+        background-size: 100%, 100%;
+    }
+}
+@media (max-width:480px)
+{
+body{
+        background-position-x: -200px, 300px;
+        background-position-y: -200px, 500px;
+        background-size: 100%, 100%;
+    }
+}
