@@ -24,8 +24,6 @@ body{
     margin: 0 auto;
     width: 390px;
     height: 420px;
-    min-width: 390px;
-    min-height: 420px;
     background-color: white;
     border-radius: 1.5rem;
     display: flex;
@@ -49,7 +47,7 @@ body{
 .top img{
     margin: 0 auto;
     border-radius: 5rem;
-    border: 2px solid white;
+    border: 5px solid white;
 }
 .bottom{
     height: 50%;
@@ -121,5 +119,43 @@ body{
         background-position-x: -200px, 300px;
         background-position-y: -200px, 500px;
         background-size: 100%, 100%;
+    }
+}
+@media (max-width:320px)
+{
+    .top{
+        height: 30%;
+    }
+    .bottom{
+        height: 75%;
+    }
+    .minor-info{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .credit-subtitle{
+        text-align: center;
+    }
+    .top img {
+        width: 80px;
+        margin: 0 auto;
+        border-radius: 5rem;
+        border: 3px solid white;
+    }
+    .top {
+        width: 100%;
+        height: 25%;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        background: url(images/bg-pattern-card.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: 100% 80px;
+    
+        display: flex;
+        align-items: flex-end;
+    }
+    .major-info{
+        padding: 30px 20px 0px;
     }
 }
