@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Poppins',sans-serif; */
+/* font-family: 'Open Sans',sans-serif; */
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    max-width: 100%;
+    margin: auto;
+    width:1200px;
+}
+img{
+    max-width: 100%;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border: 0px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    padding: 12px 75px;
+    box-shadow: 10px 10px 8px rgba(232, 130, 232,0.2);
+}
+p{
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+.content{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.content > div:first-child{
+    flex: 0.6;
+    margin-right: 30px;
+}
+.content > div:last-child{
+    flex: 0.4;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+}
+.links a{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+@media (max-width:780px)
+{
+    .content{
+        flex-direction: column;
+    }
+    .content div{
+        text-align: center;
+    }
+    .links{
+        justify-content: center;
+    }
+    .content>div:first-child {
+            flex: 1;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    
+        .content>div:last-child {
+            flex: 1;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+}
