@@ -44,6 +44,43 @@ li{
     border-radius: 20px;
     padding: 10px 50px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.434);
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.logo-try-it button::after{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.901);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+.logo-try-it button::before{
+    content: "";
+        position: absolute;
+        opacity: 0.3;
+        border-radius: inherit;
+        background-color: rgba(255, 255, 255, 0.901);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: transform 0.3 ease;
+}
+.logo-try-it button:hover{
+    transform: translate(-12px , -12px);
+}
+.logo-try-it button:hover::after{
+    transform: translate(6px,6px);
+}
+.logo-try-it button:hover::before{
+    transform: translate(12px,12px);
 }
 .logo-try-it a{
     
@@ -85,6 +122,47 @@ li{
     border-radius: 25px;
     padding: 14px 50px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.434);
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.content button::after{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background-color: hsl(322, 100%, 66%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease-in-out;
+}
+
+.content button::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background-color: hsl(322, 100%, 66%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+
+.content button:hover {
+    transform: translate(-12px, -12px);
+}
+
+.content button:hover::after {
+    transform: translate(6px, 6px);
+}
+
+.content button:hover::before {
+    transform: translate(12px, 12px);
 }
 .content button a{
     color: white;
@@ -149,7 +227,47 @@ li{
     border-radius: 25px;
     padding: 14px 50px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.434);
-    
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.small-card button::after {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background-color: hsl(322, 100%, 66%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease-in-out;
+}
+
+.small-card button::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background-color: hsl(322, 100%, 66%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+
+.small-card button:hover {
+    transform: translate(-12px, -12px);
+}
+
+.small-card button:hover::after {
+    transform: translate(6px, 6px);
+}
+
+.small-card button:hover::before {
+    transform: translate(12px, 12px);
 }
 .small-card a{
     color: white;
