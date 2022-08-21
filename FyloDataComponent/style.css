@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/bg-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 62rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 0;
+}
+button{
+    border: 0;
+    background-color: hsl(229, 57%, 11%);
+    all: unset;
+    display: flex;
+    gap: 0;
+}
+button:hover img{
+    transform: scale(1.2,1.20);
+}
+li img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: hsl(229, 57%, 11%);
+    transition: transform 0.3s ease-in-out;
+}
+.fylo-options-card{
+    background-color: hsl(228, 56%, 26%);
+    width: 40%;
+    padding: 2.5rem;
+    border-radius:10px 100px 10px 10px;    
+}
+.fylo-progressbar-card{
+    background-color: hsl(228, 56%, 26%);
+    width: 60%;
+    padding: 2rem;
+    padding-bottom: 0;
+    text-align: left;
+}
+.fylo-progressbar-card p{
+    padding: 0.75rem;
+}
+.progressbar{
+    height: 1.2rem;
+    border-radius: 40px;
+    padding: 1px;
+    background-color: hsl(229, 57%, 11%);   
+}
+.inside-bar{
+    border-radius: 40px;
+    height: 80%;
+    width: 81.5%;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%) 15%,hsl(335, 100%, 65%) 100%);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+.ball{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.storage-GBs{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pop-up-card{
+    background-color: white;
+    color: hsl(229, 7%, 55%);
+    position: relative;
+    bottom: 12rem;
+    left: 18rem;
+    width: 13rem;
+    height: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fylo-logo{
+    
+    margin-bottom: 2rem;
+    margin-right: auto;
+}
+.triangle{
+    position: relative;
+    top: 3rem;
+    left: 1.15rem;
+    margin: 0;
+    width: 0;
+    height: 0;
+    border: 1.5rem solid transparent;
+    border-right-color: white;
+    border-top-color: white;
+    
+}
+.options-list{
+    display: flex;
+    gap : 1rem; 
+}
+.GB-used{
+    font-weight: 700;
+}
+.data-remaining{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(229, 57%, 11%);
+}
+.sr-only{
+    position: absolute !important;
+    /* Outside the DOM flow */
+    height: 1px;
+    width: 1px;
+    /* Nearly collapsed */
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE 7+ only support clip without commas */
+    clip: rect(1px, 1px, 1px, 1px);
+    /* All other browsers */
+}
+@media (max-width:1000px)
+{
+    body{
+        background-image: url(./images/bg-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: auto;
+    }
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fylo-options-card{
+        width: auto;
+    }
+    .fylo-progressbar-card{
+        width: auto;
+    }
+    .pop-up-card{
+        margin: auto;
+        top: 1.5rem;
+        bottom: 0;
+        left: 0 ;   
+        right: 0;
+    }
+    .triangle{
+        display: none;
+    }
+}
+@media (max-height:750px) and (min-width:1400px){
+   main{
+    position: relative;
+    bottom: 5rem;   
+   }
+}
+@media (max-width:340px)
+{
+    .fylo-progressbar-card{
+        padding: 1.5rem;    
+    }
+}
