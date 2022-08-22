@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+main{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+}
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.car{
+    min-width: 316px;
+    max-width: 316px;
+    height: 32rem;
+    padding: 10%;
+}
+.car-title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 1.5rem 0rem;
+    color: hsl(0, 0%, 95%);
+}
+.car-description{
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+}
+.learn-more{
+    padding-top: 6rem;
+   
+}
+.learn-more button{
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 1.8rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    transition: transform 0.3s ease-in-out;
+}
+.learn-more button:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.sedan .learn-more button{
+    color: hsl(31, 77%, 52%);
+}
+.suv .learn-more button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury .learn-more button{
+    color: hsl(179, 100%, 13%);
+}
+.sr-only {
+    position: absolute !important;
+    /* Outside the DOM flow */
+    height: 1px;
+    width: 1px;
+    /* Nearly collapsed */
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE 7+ only support clip without commas */
+    clip: rect(1px, 1px, 1px, 1px);
+    /* All other browsers */
+}
+@media (max-width:1000px)
+{
+   
+    main{
+        width: auto;
+        padding: 20px;
+    }
+    .car{
+        min-width: auto;
+    }
+    .learn-more{
+        padding-top: 30px;
+    }
+}
+@media (max-width:800px)
+{
+    main{
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+    .car{
+        max-width: none;
+    }
+    .sedan {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+}
+@media (max-width:500px)
+{
+    main{
+        width: auto;
+    }
+}
