@@ -36,6 +36,7 @@ body{
     color: var(--clr-grayishblue);
     background-color: var(--clr-lightgray);
     min-height: 100vh;
+    margin: 50px 0;
 }
 main{
     height: 100vh;
@@ -164,5 +165,8 @@ main{
         grid-column: auto;
         grid-row-start: 3;
         grid-row-end: 4;
+    }
+    .full-access{
+        padding-bottom: 20px;
     }
 }
