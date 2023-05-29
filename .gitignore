@@ -1,0 +1,7 @@
+*.sketch
+.vscode/
+*.xd
+*.fig
+/design
+README-template.md
+style-guide.md
