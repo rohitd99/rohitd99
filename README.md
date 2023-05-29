@@ -1,4 +1,4 @@
-[![MasterHead](./banner.png)](https://github.com/rohitd99)
+[![MasterHead](./masterhead.gif)](https://github.com/rohitd99)
 
 <h1 align="center">Hi 👋, I'm Rohit Deshpande</h1>
 <h3 align="center">A computer science student learning web development and machine learning</h3>
