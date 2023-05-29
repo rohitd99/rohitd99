@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rohit Deshpande</h1>
 <h3 align="center">A computer science student learning web development and machine learning</h3>
-<img align="right" alt="Coding" width="400" src="https://preview.redd.it/1d11s820dgm91.gif?format=mp4&v=enabled&s=8e51fb708bf69e3fbe89664932d2f7d71bddba8a">
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rohitd99&label=Profile%20views&color=0e75b6&style=flat" alt="rohitd99" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
@@ -15,7 +15,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/rohit deshpande" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rohit deshpande" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/rohit-deshpande-94b979212" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rohit-deshpande-94b979212" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/rvd_99" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rvd_99" height="30" width="40" /></a>
 </p>
 
