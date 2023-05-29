@@ -1,3 +1,5 @@
+[![MasterHead]("masterhead.gif")]()
+
 <h1 align="center">Hi 👋, I'm Rohit Deshpande</h1>
 <h3 align="center">A computer science student learning web development and machine learning</h3>
 <img align="right" alt="Coding" width="400" src="programmer.gif"/>
