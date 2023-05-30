@@ -64,8 +64,8 @@
 
 - 📫 How to reach me **rohitdeshpande9922@gmail.com**
 
+[![Contributions Graph](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rohitd99&theme=midnight-purple)]
 [![Rohit's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohitd99&show_icons=true&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohitd99&layout=compact&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
