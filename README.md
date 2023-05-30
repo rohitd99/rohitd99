@@ -49,8 +49,8 @@
 
 ## OS
 
-[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/wervlad)
-[![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/wervlad)
+[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/rohitd99)
+[![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/rohitd99)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -64,9 +64,9 @@
 
 - 📫 How to reach me **rohitdeshpande9922@gmail.com**
 
-[![Contributions Graph](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rohitd99&theme=midnight-purple)]
-[![Rohit's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohitd99&show_icons=true&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohitd99&layout=compact&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
+[![Rohit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=rohitd99&bg_color=000000&color=ffffff&line=9745f5&point=a200ad&area=true&hide_border=true)](https://github.com/rohitd99)
+[![Rohit's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohitd99&show_icons=true&theme=midnight-purple)](https://github.com/rohitd99)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohitd99&layout=compact&theme=midnight-purple)](https://github.com/rohitd99)
 
 </div>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=rohitd99&label=Profile%20views&color=0e75b6&style=flat" alt="rohitd99" /> </p>
