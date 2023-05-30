@@ -64,5 +64,7 @@
 
 - 📫 How to reach me **rohitdeshpande9922@gmail.com**
 
+[![Rohit's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohitd99&show_icons=true&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
+
 </div>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=rohitd99&label=Profile%20views&color=0e75b6&style=flat" alt="rohitd99" /> </p>
