@@ -37,7 +37,7 @@
 
 ## Frameworks
 
-:pushpin: Currently working in learning these.
+:pushpin: Currently working on learning **Frameworks like React.js and Node.js**.
 
 ## ML
 
