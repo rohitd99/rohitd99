@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>StatsPreviewCard</title>
+  </head>
+  <body>
+    <main>
+      <section class="section__image">
+        <picture class="section__image__picture">
+          <source
+            media="(min-width : 580px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <source srcset="images/image-header-mobile.jpg" />
+          <img src="images/image-header-mobile.jpg" alt="Image of People" />
+        </picture>
+      </section>
+      <section class="section__content">
+        <div>
+          <h1 class="section__title">
+            Get
+            <span class="section__title--purple">insights</span> that help your
+            business grow
+          </h1>
+          <p class="section__description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency
+          </p>
+        </div>
+        <ul class="unorderedlist__accolades">
+          <li class="listitem__accolade">
+            <p class="listitem__numbers">10k+</p>
+            <p class="listitem__description">COMPANIES</p>
+          </li>
+          <li class="listitem__accolade">
+            <p class="listitem__numbers">314</p>
+            <p class="listitem__description">TEMPLATES</p>
+          </li>
+          <li class="listitem__accolade">
+            <p class="listitem__numbers">12M+</p>
+            <p class="listitem__description">QUERIES</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
