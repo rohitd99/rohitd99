@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FourCardFeature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="shortcut icon"
       href="images/favicon-32x32.png"
@@ -14,46 +20,80 @@
   </head>
   <body>
     <main>
-      <section>
-        <h1>
-          <span>Reliable, efficient delivery</span>
-          <span>Powered by Technology</span>
+      <section class="heading">
+        <h1 class="heading__title">
+          <span class="heading__title--light"
+            >Reliable, efficient delivery</span
+          >
+          <span class="heading__title--bold">Powered by Technology</span>
         </h1>
-        <p>
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
+        <p class="heading__description">
+          <span
+            >Our Artificial Intelligence powered tools use millions of project
+            data</span
+          >
+          <span>points to ensure that your project is successful</span>
         </p>
       </section>
-      <section>
-        <div>
-          <article>
-            <h2>Supervisor</h2>
-            <p>Monitors activity to identify project roadblocks</p>
-            <img src="./images/icon-supervisor.svg" alt="Supervision Icon" />
+      <section class="cards">
+        <div class="column">
+          <article class="card card__border--cyan">
+            <div>
+              <h2 class="card__title">Supervisor</h2>
+              <p class="card__description">
+                Monitors activity to identify project roadblocks
+              </p>
+            </div>
+            <img
+              src="./images/icon-supervisor.svg"
+              class="card__icon"
+              alt="Supervision Icon"
+            />
           </article>
         </div>
-        <div>
-          <article>
-            <h2>Team Builder</h2>
-            <p>
-              Scans our talent network to create the optimal team for your
-              project
-            </p>
-            <img src="./images/icon-team-builder.svg" alt="Team-Builder Icon" />
+        <div class="column">
+          <article class="card card__border--red">
+            <div>
+              <h2 class="card__title">Team Builder</h2>
+              <p class="card__description">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+            </div>
+            <img
+              src="./images/icon-team-builder.svg"
+              class="card__icon"
+              alt="Team-Builder Icon"
+            />
           </article>
-          <article>
-            <h2>Karma</h2>
-            <p>Regularly evaluates our talent to ensure quality</p>
-            <img src="./images/icon-karma.svg" alt="Karma Icon" />
+          <article class="card card__border--orange">
+            <div>
+              <h2 class="card__title">Karma</h2>
+              <p class="card__description">
+                Regularly evaluates our talent to ensure quality
+              </p>
+            </div>
+            <img
+              src="./images/icon-karma.svg"
+              class="card__icon"
+              alt="Karma Icon"
+            />
           </article>
         </div>
-        <div>
-          <article>
-            <h2>Calculator</h2>
-            <p>
-              Uses data from past projects to provide better delivery estimates
-            </p>
-            <img src="./images/icon-calculator.svg" alt="Calculator Icon" />
+        <div class="column">
+          <article class="card card__border--blue">
+            <div>
+              <h2 class="card__title">Calculator</h2>
+              <p class="card__description">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </div>
+            <img
+              src="./images/icon-calculator.svg"
+              class="card__icon"
+              alt="Calculator Icon"
+            />
           </article>
         </div>
       </section>

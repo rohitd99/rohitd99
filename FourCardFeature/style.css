@@ -1,0 +1,134 @@
+:root{
+    --clr-red : hsl(0, 78%, 62%);
+    --clr-cyan : hsl(180, 62%, 55%);
+    --clr-orange : hsl(34, 97%, 64%);
+    --clr-blue : hsl(212, 86%, 64%);
+    --clr-verydarkblue : hsl(234, 12%, 34%);
+    --clr-grayishblue : hsl(229, 6%, 66%);
+    --clr-lightgray : hsl(0, 0%, 98%);
+
+    --fs-larger : 2.5rem;
+    --fs-large : 1.5rem;
+    --fw-light : 200;
+    --fw-bold : 400;
+    --fw-bolder : 600;
+    --font-poppins : 'Poppins', sans-serif;
+
+}
+html{
+    font-size: 15px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 3rem 1.75rem;
+    background-color: var(--clr-lightgray);
+}
+main{
+    width: 100%;
+    font-family: var(--font-poppins);
+}
+.heading{
+    padding-bottom: 4rem;
+}
+.heading__title{
+    padding-bottom: 1rem;
+}
+.heading__title span{
+    display: block;
+    text-align: center;
+    font-size: var(--fs-large);
+    color: var(--clr-verydarkblue);
+    
+}
+.heading__title--light{
+    font-weight: var(--fw-light);
+}
+.heading__title--bold{
+    font-weight: var(--fw-bolder);
+}
+.heading__description{
+    text-align: center;
+    color: var(--clr-grayishblue);
+}
+.heading__description span{
+    display: block;
+}
+.cards{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18rem;
+    max-width: 26rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 10px 20px var(--clr-grayishblue);
+}
+.card__title{
+    padding-bottom: 1.2rem;
+}
+.card__icon{
+    align-self: flex-end;
+    width: 5rem;
+}
+.card__border--cyan{
+    border-top: 0.5rem solid;
+    border-color: var(--clr-cyan);
+}
+.card__border--red {
+    border-top: 0.5rem solid;
+    border-color: var(--clr-red);
+}
+.card__border--orange {
+    border-top: 0.5rem solid;
+    border-color: var(--clr-orange);
+}
+.card__border--blue {
+    border-top: 0.5rem solid;
+    border-color: var(--clr-blue);
+}
+@media only screen and (min-width : 900px)
+{
+    .heading__title span{
+        font-size: var(--fs-larger);
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .column:nth-child(1)
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.5rem;
+    }
+    .column:nth-child(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+    .column:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
