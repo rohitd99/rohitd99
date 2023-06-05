@@ -22,6 +22,11 @@ body{
     padding: 2.5rem 1.25rem;
     background-color: var(--clr-white);
     color: var(--clr-darkmagenta);
+    background-image: 
+    url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left,bottom right;
 }
 .title{
     padding-bottom: 1.5rem;
@@ -126,6 +131,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image:
+            url("./images/bg-pattern-top-desktop.svg"),
+            url("./images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, bottom right;
     }
     main{
         display: grid;
