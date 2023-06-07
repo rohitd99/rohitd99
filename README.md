@@ -31,6 +31,7 @@
 
 [![HTML](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/rohitd99)
 [![CSS](https://img.shields.io/badge/css3-black?style=for-the-badge&logo=css3)](https://github.com/rohitd99)
+[![SASS](https://img.shields.io/badge/sass-black?style=for-the-badge&logo=sass)](https://github.com/rohitd99)
 [![BootStrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/rohitd99)
 [![JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/rohitd99)
 [![PHP](https://img.shields.io/badge/php-black?style=for-the-badge&logo=php)](https://github.com/rohitd99)
