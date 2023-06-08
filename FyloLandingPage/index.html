@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>FyloLandingPage</title>
   </head>
   <body>
     <header>
@@ -23,9 +48,12 @@
         </div>
       </nav>
     </header>
+    <h1 class="sr-only">Fylo Webpage</h1>
     <main>
-      <h1 class="title">Fylo Webpage</h1>
       <section class="files">
+        <div class="files__img">
+          <img src="./images/illustration-1.svg" alt="illustration" />
+        </div>
         <div class="files__text">
           <h2>All your files in one secure location, accessible anywhere.</h2>
           <p>
@@ -42,11 +70,11 @@
             <button type="submit">Get Started</button>
           </form>
         </div>
-        <div class="files__img">
-          <img src="./images/illustration-1.svg" alt="illustration" />
-        </div>
       </section>
       <section class="features">
+        <div class="features__img">
+          <img src="./images/illustration-2.svg" alt="illustration" />
+        </div>
         <div class="features__text">
           <h2>Stay productive, wherever you are</h2>
           <ul>
@@ -59,8 +87,8 @@
               colleagues for live collaboration. No email attachments required!
             </li>
           </ul>
-          <a href="#"
-            >See how Fylo Works
+          <a href="#">
+            <span>See how Fylo Works</span>
             <span
               ><img src="./images/icon-arrow.svg" alt="image of arrow" /></span
           ></a>
@@ -75,13 +103,12 @@
             </p>
             <div class="review__details">
               <img src="./images/avatar-testimonial.jpg" alt="Image of Kyle" />
-              <h3>Kyle Burton</h3>
-              <p>Founder & CEO, Huddle</p>
+              <div>
+                <h3>Kyle Burton</h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
             </div>
           </article>
-        </div>
-        <div class="features__img">
-          <img src="./images/illustration-2.svg" alt="illustration" />
         </div>
       </section>
       <section class="earlyaccess">
@@ -104,7 +131,11 @@
     <footer>
       <div class="company">
         <p>
-          <span><img src="./images/logo.svg" alt="Logo of Fylo" /></span>
+          <img
+            class="change-to-white"
+            src="./images/logo-white.svg"
+            alt="Logo of Fylo"
+          />
         </p>
         <ul>
           <li>
@@ -128,6 +159,8 @@
           <li><a href="">Press</a></li>
           <li><a href="">Blog</a></li>
         </ul>
+      </div>
+      <div class="links">
         <ul>
           <li><a href="">Contact Us</a></li>
           <li><a href="">Terms</a></li>
@@ -137,13 +170,19 @@
       <div class="social">
         <ul>
           <li>
-            <a href="#"><span></span></a>
+            <a href="#"
+              ><span><i class="fa-brands fa-facebook"></i></span
+            ></a>
           </li>
           <li>
-            <a href="#"><span></span></a>
+            <a href="#"
+              ><span><i class="fa-brands fa-twitter"></i></span
+            ></a>
           </li>
           <li>
-            <a href="#"><span></span></a>
+            <a href="#"
+              ><span><i class="fa-brands fa-instagram"></i></span
+            ></a>
           </li>
         </ul>
       </div>

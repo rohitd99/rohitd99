@@ -1,0 +1,17 @@
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: white;
+    font-family: var(--font-opensans);
+    font-size: 1rem;
+    min-height: 100vh;
+}
