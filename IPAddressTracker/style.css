@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+.info{
+
+    position: relative;
+    padding: 1rem 0rem;
+    background: url("./images/pattern-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info__title{
+    color: white;
+    font-weight: 500;
+}
+.info__form{
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.info__form input{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 30rem;
+}
+
+.info__form button{
+    background-color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.info__card{
+
+    position: relative;
+    z-index: 10000;
+    top: 75px;
+    width: 80%;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.info__card ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.info__card li{
+    list-style: none;
+    border-right: 1px solid rgba(128, 128, 128, 0.692);
+    padding: 0rem 0.5rem;
+    width: 100%;
+}
+
+.info__card li:last-child{
+    border: none;
+}
+
+.info__field {
+    font-size: 0.8rem;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+.info__value{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    padding-top: 1rem;
+}
+
+.invalid{
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#map{
+    width: 100%;
+    height: 50rem;
+}
+
+@media only screen and (max-width: 900px){
+    
+    .info__card{
+        top: 150px;
+    }
+    
+    .info__card ul{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .info__card li{
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .info__card {
+        top: 150px;
+    }
+
+    .info__value{
+        font-size: 1.25rem;
+    }
+    .info__form input{
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .info__card {
+        top: 50px;
+    }
+    .info {
+        background: url("./images/pattern-bg-mobile.png");
+        background-repeat: no-repeat;
+    }
+
+    .info__form input {
+        width: 15rem;
+    }
+}
