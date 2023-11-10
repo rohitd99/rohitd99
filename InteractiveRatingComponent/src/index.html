@@ -1,9 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script defer src="./js/script.js"></script>
+    <title>Rating Component</title>
   </head>
-  <body></body>
+  <body
+    class="bg-verydarkblue font-overpass text-white min-h-screen flex justify-center items-center p-6"
+  >
+    <main>
+      <h1 class="sr-only">Interactive Rating Component</h1>
+      <div>
+        <div
+          id="rating__container"
+          class="rating__container bg-darkblue p-8 rounded-2xl max-w-sm flex flex-col gap-6"
+        >
+          <div
+            class="icon__container w-8 h-8 rounded-full bg-mediumgrey/25 flex justify-center items-center"
+          >
+            <img src="../images/icon-star.svg" alt="Star Icon" />
+          </div>
+          <div class="rating__text flex flex-col gap-4">
+            <h2 class="text-2xl font-bold">How did we do?</h2>
+            <p class="text-sm text-lightgrey font-normal">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <form class="flex flex-col gap-6" action="" id="rating__form">
+            <div class="rating__inputs flex justify-between items-center">
+              <div class="flex">
+                <input
+                  class="invisible w-0 h-0"
+                  type="radio"
+                  id="one_star"
+                  name="rating"
+                  value="1"
+                />
+                <label
+                  class="block bg-mediumgrey/25 rounded-full w-12 h-12 flex justify-center items-center focus-visible:bg-mediumgrey/75 focus-visible:outline-none hover:bg-orange transition-colors duration-300 ease-in-out"
+                  for="one_star"
+                  tabindex="0"
+                  >1</label
+                >
+              </div>
+              <div class="flex">
+                <input
+                  class="invisible w-0 h-0"
+                  type="radio"
+                  id="two_star"
+                  name="rating"
+                  value="2"
+                />
+                <label
+                  class="block bg-mediumgrey/25 rounded-full w-12 h-12 flex justify-center items-center focus-visible:bg-mediumgrey/75 focus-visible:outline-0 hover:bg-orange transition-colors duration-300 ease-in-out"
+                  for="two_star"
+                  tabindex="0"
+                  >2</label
+                >
+              </div>
+              <div class="flex">
+                <input
+                  class="invisible w-0 h-0"
+                  type="radio"
+                  id="three_star"
+                  name="rating"
+                  value="3"
+                />
+                <label
+                  class="block bg-mediumgrey/25 rounded-full w-12 h-12 flex justify-center items-center focus-visible:bg-mediumgrey/75 focus-visible:outline-0 hover:bg-orange transition-colors duration-300 ease-in-out"
+                  for="three_star"
+                  tabindex="0"
+                  >3</label
+                >
+              </div>
+              <div class="flex">
+                <input
+                  class="invisible w-0 h-0"
+                  type="radio"
+                  id="four_star"
+                  name="rating"
+                  value="4"
+                />
+                <label
+                  class="block bg-mediumgrey/25 rounded-full w-12 h-12 flex justify-center items-center focus-visible:bg-mediumgrey/75 focus-visible:outline-0 hover:bg-orange transition-colors duration-300 ease-in-out"
+                  for="four_star"
+                  tabindex="0"
+                  >4</label
+                >
+              </div>
+              <div class="flex">
+                <input
+                  class="invisible w-0 h-0"
+                  type="radio"
+                  id="five_star"
+                  name="rating"
+                  value="5"
+                />
+                <label
+                  class="block bg-mediumgrey/25 rounded-full w-12 h-12 flex justify-center items-center focus-visible:bg-mediumgrey/75 focus-visible:outline-0 hover:bg-orange transition-colors duration-300 ease-in-out"
+                  for="five_star"
+                  tabindex="0"
+                  >5</label
+                >
+              </div>
+            </div>
+            <div>
+              <button
+                class="w-full rounded-2xl bg-orange py-2 tracking-wider hover:bg-white hover:text-orange transition-colors duration-300 ease-in-out"
+                type="submit"
+              >
+                SUBMIT
+              </button>
+              <p
+                id="error"
+                class="text-center text-orange opacity-0 h-0 transition-all duration-600"
+              >
+                Please select a rating !
+              </p>
+            </div>
+          </form>
+        </div>
+        <div
+          id="thankyou__container"
+          class="hidden bg-darkblue p-8 rounded-2xl max-w-sm flex flex-col items-center gap-6"
+        >
+          <div class="">
+            <img
+              src="../images/illustration-thank-you.svg"
+              alt="Illustration for Thank you"
+            />
+          </div>
+          <p
+            id="thankyou__text"
+            class="text-orange text-xs bg-mediumgrey/25 py-2 px-4 rounded-2xl"
+          ></p>
+          <h2 id="thankyou__title" class="font-bold text-2xl">Thank You!</h2>
+          <p
+            id="thankyou__description"
+            class="text-center text-lightgrey text-sm"
+          >
+            We appreciate you taking the time to give a rating. If you ever need
+            more support don't hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
